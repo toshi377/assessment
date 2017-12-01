@@ -31,7 +31,7 @@
         const result = assessment(userName);
         paragraph.innerText = result;
         resultDivided.appendChild(paragraph);
-
+    
         // ツイートエリアの作成
         removeAllChildren(tweetDivided);
         const anchor = document.createElement('a');
